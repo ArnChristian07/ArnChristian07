@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="146" viewBox="0 0 1000 146" fill="none">
+<style>
+  .display{font-family:'Space Grotesk','Segoe UI',Inter,-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}
+  .sans{font-family:Inter,'Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}
+  .mono{font-family:'JetBrains Mono',ui-monospace,SFMono-Regular,Consolas,Menlo,monospace}
+  
+  @media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+
+<circle cx="14" cy="43" r="7" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+<circle cx="14" cy="43" r="2.5" fill="#2563eb"/>
+<rect x="44" y="14" width="954" height="120" rx="14" fill="#ffffff" stroke="#e4e8ef"/>
+<rect x="70" y="32" width="99.44" height="22" rx="11" fill="#e3ecfc"/>
+<text x="119.72" y="47" text-anchor="middle" class="mono" font-size="11" font-weight="600" letter-spacing="0.8" fill="#2563eb">2021 - 2022</text>
+<text x="183.44" y="48" class="display" font-size="18" font-weight="600" fill="#0f172a">Card Scripter using Lua Language</text>
+<text x="70" y="84" class="sans" font-size="13.5" font-weight="500" fill="#334155">Fluorohydride (YGOPro Game)</text>
+<text class="sans" font-size="14" fill="#5b6678"><tspan x="70" y="110">Create scripts for new released cards, fixing bugs, and database management.</tspan></text>
+</svg>

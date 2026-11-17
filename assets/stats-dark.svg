@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="116" viewBox="0 0 1000 116" fill="none">
+<style>
+  .display{font-family:'Space Grotesk','Segoe UI',Inter,-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}
+  .sans{font-family:Inter,'Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}
+  .mono{font-family:'JetBrains Mono',ui-monospace,SFMono-Regular,Consolas,Menlo,monospace}
+  
+  @media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect x="2" y="2" width="321.3333333333333" height="112" rx="14" fill="#142036" stroke="#1e2a40"/>
+<text x="26" y="54" class="display" font-size="32" font-weight="700" letter-spacing="-0.6" fill="#e7ecf4">40+</text>
+<text x="26" y="86" class="sans" font-size="13" fill="#94a0b4">Project Shipped</text>
+<rect x="339.3333333333333" y="2" width="321.3333333333333" height="112" rx="14" fill="#142036" stroke="#1e2a40"/>
+<text x="363.3333333333333" y="54" class="display" font-size="32" font-weight="700" letter-spacing="-0.6" fill="#e7ecf4">6</text>
+<text x="363.3333333333333" y="86" class="sans" font-size="13" fill="#94a0b4">Years Coding</text>
+<rect x="676.6666666666666" y="2" width="321.3333333333333" height="112" rx="14" fill="#142036" stroke="#1e2a40"/>
+<text x="700.6666666666666" y="54" class="display" font-size="32" font-weight="700" letter-spacing="-0.6" fill="#e7ecf4">2</text>
+<text x="700.6666666666666" y="86" class="sans" font-size="13" fill="#94a0b4">Certificates</text>
+</svg>
