@@ -3,7 +3,7 @@
 <a href="https://arnchristian-portfolio.vercel.app">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg" />
-    <img width="100%" src="./assets/hero-light.svg" alt="Open to OJT / internship roles. Hi, I’m Arn Christian (AnKurisu). I’m a Programmer." />
+    <img width="100%" src="./assets/hero-light.svg" alt="Open to opportunities. Hi, I’m Arn Christian (AnKurisu). I’m a Programmer." />
   </picture>
 </a>
 
@@ -33,7 +33,7 @@ I love turning ideas into working software, whether that's a web app, a mobile a
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/contact-dark.svg" />
-  <img width="100%" src="./assets/contact-light.svg" alt="03 — Contact: Let’s build something. Open to OJT placements, internships and freelance front-end work." />
+  <img width="100%" src="./assets/contact-light.svg" alt="03 — Contact: Let’s build something. Open to new opportunities and freelance front-end work." />
 </picture>
 
 <p>

@@ -12,7 +12,7 @@ mkdirSync(out, { recursive: true });
 /* ---------- content (from the portfolio site) ---------- */
 
 const PROFILE = {
-  availability: "Open to OJT / internship roles",
+  availability: "Open to opportunities",
   headline: ["Hi, I’m Arn Christian", "(AnKurisu).", "I’m a Programmer"],
   tagline:
     "My love for technology and my interest in how things work make me develop applications and work on new technologies in order to become better at programming.",
@@ -35,7 +35,7 @@ const SKILLS = [
 
 const CONTACT = {
   title: "Let’s build something",
-  body: "Open to OJT placements, internships and freelance front-end work. Send a message and I usually reply within a day.",
+  body: "Open to new opportunities and freelance front-end work. Send a message and I usually reply within a day.",
 };
 
 const SECTIONS = [
