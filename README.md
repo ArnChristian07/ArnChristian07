@@ -7,30 +7,11 @@
   </picture>
 </a>
 
-<p>
-  <a href="https://arnchristian-portfolio.vercel.app"><img src="https://img.shields.io/badge/Portfolio-arnchristian.dev-2563EB?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
-  <a href="mailto:arnchristian3535@gmail.com"><img src="https://img.shields.io/badge/Email-Get_in_touch-111A2E?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <img src="https://komarev.com/ghpvc/?username=ArnChristian07&label=Profile%20views&color=111A2E&style=for-the-badge" alt="Profile views" />
-</p>
-
-<p>
-  <a href="#-about"><img src="https://img.shields.io/badge/About-eef2f8?style=flat-square" alt="About" /></a>
-  <a href="#-skills"><img src="https://img.shields.io/badge/Skills-eef2f8?style=flat-square" alt="Skills" /></a>
-  <a href="#-experience"><img src="https://img.shields.io/badge/Experience-eef2f8?style=flat-square" alt="Experience" /></a>
-  <a href="#-activity"><img src="https://img.shields.io/badge/Activity-eef2f8?style=flat-square" alt="Activity" /></a>
-  <a href="#-contact"><img src="https://img.shields.io/badge/Contact-eef2f8?style=flat-square" alt="Contact" /></a>
-</p>
-
 <br />
 
-<a id="-about"></a>
 <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/h-about-dark.svg" /><img width="100%" src="./assets/h-about-light.svg" alt="01 — About me: A developer who likes small screens and big ideas." /></picture>
 
-I love making all sorts of ideas happen by coding, whether it is web application development, creating a mobile application, or even testing out some other project.
-
-My ideas sometimes arise out of the blue or are inspired by whatever I happen to come across. I also like gaming and watching anime. Gaming and anime may inspire my creativity and help generate ideas as well.
-
-I'm always very eager to figure out how everything works and try to create something new and cool using all that I learn.
+I love turning ideas into working software, whether that's a web app, a mobile app, or a side experiment. I like figuring out how things work, then building something new with what I learn. Outside of code, I game and watch anime.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/stats-dark.svg" />
@@ -40,7 +21,6 @@ I'm always very eager to figure out how everything works and try to create somet
 <br />
 <br />
 
-<a id="-skills"></a>
 <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/h-skills-dark.svg" /><img width="100%" src="./assets/h-skills-light.svg" alt="02 — Skills: Tools I reach for." /></picture>
 
 <picture>
@@ -51,48 +31,12 @@ I'm always very eager to figure out how everything works and try to create somet
 <br />
 <br />
 
-<a id="-experience"></a>
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/h-experience-dark.svg" /><img width="100%" src="./assets/h-experience-light.svg" alt="03 — Experience: Where I’ve worked and learned." /></picture>
-
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/experience-dark.svg" />
-  <img width="100%" src="./assets/experience-light.svg" alt="2021 - 2022 · Card Scripter using Lua Language · Fluorohydride (YGOPro Game). Create scripts for new released cards, fixing bugs, and database management." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/contact-dark.svg" />
+  <img width="100%" src="./assets/contact-light.svg" alt="03 — Contact: Let’s build something. Open to OJT placements, internships and freelance front-end work." />
 </picture>
-
-<br />
-<br />
-
-<a id="-activity"></a>
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/h-activity-dark.svg" /><img width="100%" src="./assets/h-activity-light.svg" alt="04 — Activity" /></picture>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=ArnChristian07&show_icons=true&border_radius=16&bg_color=111a2c&border_color=1e2a40&title_color=e7ecf4&text_color=c3ccda&icon_color=4f8cff&ring_color=4f8cff&rank_icon=github" />
-    <img width="49%" src="https://github-readme-stats.vercel.app/api?username=ArnChristian07&show_icons=true&border_radius=16&bg_color=ffffff&border_color=e4e8ef&title_color=0f172a&text_color=334155&icon_color=2563eb&ring_color=2563eb&rank_icon=github" alt="GitHub stats" />
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=ArnChristian07&border_radius=16&background=111a2c&border=1e2a40&ring=4f8cff&fire=4f8cff&currStreakNum=e7ecf4&currStreakLabel=4f8cff&sideNums=e7ecf4&sideLabels=c3ccda&dates=94a0b4" />
-    <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=ArnChristian07&border_radius=16&background=ffffff&border=e4e8ef&ring=2563eb&fire=2563eb&currStreakNum=0f172a&currStreakLabel=2563eb&sideNums=0f172a&sideLabels=334155&dates=5b6678" alt="GitHub streak" />
-  </picture>
-</p>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ArnChristian07/ArnChristian07/output/github-contribution-grid-snake-dark.svg" />
-  <img width="100%" src="https://raw.githubusercontent.com/ArnChristian07/ArnChristian07/output/github-contribution-grid-snake.svg" alt="Contribution graph with a snake eating the contributions" />
-</picture>
-
-<br />
-<br />
-
-<a id="-contact" href="mailto:arnchristian3535@gmail.com">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/contact-dark.svg" />
-    <img width="100%" src="./assets/contact-light.svg" alt="05 — Contact: Let’s build something. Open to OJT placements, internships and freelance front-end work." />
-  </picture>
-</a>
 
 <p>
   <a href="mailto:arnchristian3535@gmail.com"><img src="https://img.shields.io/badge/arnchristian3535@gmail.com-2563EB?style=for-the-badge&logo=gmail&logoColor=white" alt="arnchristian3535@gmail.com" /></a>
-  <a href="https://github.com/ArnChristian07"><img src="https://img.shields.io/badge/GitHub-ArnChristian07-111A2E?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
   <a href="https://arnchristian-portfolio.vercel.app"><img src="https://img.shields.io/badge/Portfolio-Visit-111A2E?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
 </p>

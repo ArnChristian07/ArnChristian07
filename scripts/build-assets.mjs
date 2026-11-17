@@ -33,15 +33,6 @@ const SKILLS = [
   { title: "Others", items: ["HTML", "CSS", "VBScript", "XML"] },
 ];
 
-const EXPERIENCE = [
-  {
-    period: "2021 - 2022",
-    role: "Card Scripter using Lua Language",
-    org: "Fluorohydride (YGOPro Game)",
-    body: "Create scripts for new released cards, fixing bugs, and database management.",
-  },
-];
-
 const CONTACT = {
   title: "Let’s build something",
   body: "Open to OJT placements, internships and freelance front-end work. Send a message and I usually reply within a day.",
@@ -50,8 +41,6 @@ const CONTACT = {
 const SECTIONS = [
   ["about", "01", "About me", "A developer who likes small screens and big ideas."],
   ["skills", "02", "Skills", "Tools I reach for."],
-  ["experience", "03", "Experience", "Where I’ve worked and learned."],
-  ["activity", "04", "Activity", "Notes from the commit log."],
 ];
 
 /* ---------- tokens ---------- */
@@ -270,33 +259,6 @@ ${chips}`;
   return svg(W, H, `<defs>${shadowFilter(t)}</defs>\n${cards}`);
 }
 
-/* ---------- experience timeline ---------- */
-
-function experience(t) {
-  const W = 1000, cardX = 44, pad = 26;
-  let y = 8;
-  const rows = EXPERIENCE.map((e) => {
-    const p = pill(e.period, cardX + pad, y + 24, t);
-    const body = wrap(e.body, W - cardX - pad * 2 - 4, 14, 0.5);
-    const h = 120 + (body.length - 1) * 22;
-    const s = `<circle cx="14" cy="${y + 35}" r="7" fill="${t.heroTo}" stroke="${t.accent}" stroke-width="2"/>
-<circle cx="14" cy="${y + 35}" r="2.5" fill="${t.accent}"/>
-<rect x="${cardX}" y="${y + 6}" width="${W - cardX - 2}" height="${h}" rx="14" fill="${t.card}" stroke="${t.border}"/>
-${p.svg}
-<text x="${cardX + pad + p.w + 14}" y="${y + 40}" class="display" font-size="18" font-weight="600" fill="${t.fg}">${esc(e.role)}</text>
-<text x="${cardX + pad}" y="${y + 76}" class="sans" font-size="13.5" font-weight="500" fill="${t.fgSoft}">${esc(e.org)}</text>
-<text class="sans" font-size="14" fill="${t.muted}">${tspans(body, cardX + pad, y + 102, 22)}</text>`;
-    const top = y;
-    y += h + 18;
-    return { s, top };
-  });
-  const H = y;
-  const line = rows.length > 1
-    ? `<line x1="14" y1="43" x2="14" y2="${rows.at(-1).top + 35}" stroke="${t.borderStrong}" stroke-width="2" stroke-dasharray="2 6" stroke-linecap="round"/>`
-    : "";
-  return svg(W, H, line + "\n" + rows.map((r) => r.s).join("\n"));
-}
-
 /* ---------- contact CTA (ink footer) ---------- */
 
 function cta(t) {
@@ -310,7 +272,7 @@ function cta(t) {
   <rect width="${W}" height="${H}" fill="${t.ink}"/>
   <rect width="${W}" height="${H}" fill="url(#g)"/>
   <rect width="${W}" height="${H}" fill="url(#glow)"/>
-  <text x="56" y="70" class="mono" font-size="12" font-weight="500" letter-spacing="1.7" fill="${t.inkAccent}">05 — CONTACT</text>
+  <text x="56" y="70" class="mono" font-size="12" font-weight="500" letter-spacing="1.7" fill="${t.inkAccent}">03 — CONTACT</text>
   <text x="54" y="122" class="display" font-size="40" font-weight="700" letter-spacing="-1.2" fill="${t.inkFg}">${esc(CONTACT.title)}<tspan fill="${t.inkAccent}">.</tspan></text>
   <text class="sans" font-size="15" fill="#94a0b4">${tspans(wrap(CONTACT.body, 860, 15, 0.5), 56, 164, 24)}</text>
 </g>
@@ -326,7 +288,6 @@ for (const [mode, t] of Object.entries(THEMES)) {
     hero: hero(t),
     stats: stats(t),
     skills: skills(t),
-    experience: experience(t),
     contact: cta(t),
   };
   for (const [id, n, eyebrow, title] of SECTIONS) files[`h-${id}`] = heading(t, n, eyebrow, title);
