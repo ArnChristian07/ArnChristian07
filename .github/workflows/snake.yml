@@ -22,7 +22,7 @@ jobs:
       - name: Generate snake files in dist/
         uses: Platane/snk/svg-only@v3
         with:
-          github_user_name: AsahiRei
+          github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-contribution-grid-snake.svg?color_snake=#2563eb&color_dots=#eef2f8,#bfd3fb,#8db1f7,#4f8cff,#2563eb
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#4f8cff&color_dots=#161b22,#16264a,#1f4a9e,#3a74e0,#7ea6ff
